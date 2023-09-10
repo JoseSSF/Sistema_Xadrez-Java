@@ -1,6 +1,6 @@
-package tabuleiro;
+package tabuleiroDejogo;
 
-public class Posicao {
+public class Posicao { 
 	
 	private int linha;
 	private int coluna;
