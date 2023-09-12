@@ -14,9 +14,9 @@ public class PartidaDeXadrez {
 		configInicial();
 	}
 	public PecaDeXadrez[][] getPecas(){
-		PecaDeXadrez[][] mat = new PecaDeXadrez[tabuleiro.getLinha()][tabuleiro.getColuna()];
-		for (int x=0; x<tabuleiro.getLinha(); x++){
-			for(int y=0; y<tabuleiro.getColuna(); y++) {
+		PecaDeXadrez[][] mat = new PecaDeXadrez[tabuleiro.getLinhas()][tabuleiro.getColunas()];
+		for (int x=0; x<tabuleiro.getLinhas(); x++){
+			for(int y=0; y<tabuleiro.getColunas(); y++) {
 				mat [x][y] = (PecaDeXadrez)tabuleiro.peca(x, y);
 			}
 		}
